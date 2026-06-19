@@ -1,9 +1,9 @@
 export type MovieCategory = "now_playing" | "popular" | "top_rated" | "upcoming";
 
-const API_KEY = process.env.TMDB_API_KEY;
-const BASE_URL = process.env.TMDB_BASE_URL;
-
 export async function getMoviesByCategory(category: MovieCategory) {
+  const API_KEY = process.env.TMDB_API_KEY;
+  const BASE_URL = process.env.TMDB_BASE_URL;
+
   const res = await fetch(
     `${BASE_URL}/movie/${category}?api_key=${API_KEY}&language=ja-JP&page=1`,
     {
@@ -31,6 +31,9 @@ export type MovieDetail = {
 };
 
 export async function getMovieDetail(movieId: string): Promise<MovieDetail> {
+  const API_KEY = process.env.TMDB_API_KEY;
+  const BASE_URL = process.env.TMDB_BASE_URL;
+
   const res = await fetch(
     `${BASE_URL}/movie/${movieId}?api_key=${API_KEY}&language=ja-JP`,
     {

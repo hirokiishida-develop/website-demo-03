@@ -8,7 +8,7 @@ type MovieDetailPageProps = {
 
 export default async function MovieDetailPage(
   { params }: MovieDetailPageProps
-): Promise<JSX.Element> {
+) {
   const { id } = await params;
   const movie = await getMovieDetail(id);
 

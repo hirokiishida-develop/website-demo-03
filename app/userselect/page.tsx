@@ -39,7 +39,7 @@ const UserCard = ({ id, img, name }: UserCardProps) => {
   return (
     <MotionButton
       className="flex flex-col items-center gap-y-0.5 w-25 cursor-pointer"
-      onClick={() => router.push(`/home?user_${id}`)}
+      onClick={() => router.push(`/home?user=${id}`)}
     >
       <Image
         src={`/images/userselect/${img}.png`}

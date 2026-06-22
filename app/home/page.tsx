@@ -34,11 +34,11 @@ export default function HomePage(){
     <div className="pb-8">
       <Header />
       <HeroSlider />
-      <Preview />
+      {/* <Preview />
       <MovieRow heading="Popular on Netflix" category="popular" />
       <MovieRow heading="Top Rated" category="top_rated" />
       <MovieRow heading="Now Playing" category="now_playing" />
-      <MovieRow heading="Up coming" category="upcoming" />
+      <MovieRow heading="Up coming" category="upcoming" /> */}
       <GlobalNavigation />
     </div>
   );

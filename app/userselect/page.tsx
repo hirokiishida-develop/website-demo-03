@@ -71,7 +71,7 @@ const AddUser = () => {
   );
 }
 
-export default function Page(){
+export default function UserSelectPage(){
   return(
     <div className="pb-40">
       <Header />

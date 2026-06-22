@@ -11,7 +11,7 @@ export default async function HeroSlider(){
 
   return (
     <>
-      {/* <div className="relative w-full h-[415] overflow-hidden">
+      <div className="relative w-full h-[415] overflow-hidden">
         {randomMovie && (
           <div key={randomMovie.id}>
             <Link className="absolute top-0 left-0 right-0 m-auto w-full h-full" href={`/movies/${randomMovie.id}`}>
@@ -29,7 +29,7 @@ export default async function HeroSlider(){
           </div>
         )}
       </div>
-      <HeroLocalNavigation /> */}
+      <HeroLocalNavigation />
     </>
   );
 }

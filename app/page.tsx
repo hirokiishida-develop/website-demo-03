@@ -1,23 +1,11 @@
-import Link from "next/link";
-import Image from "next/image";
+import { redirect } from 'next/navigation'
 
-export default function Page(){
+export default function Page() {
+  redirect('/userselect');
+
   return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      <h1>Home Page (Test)</h1>
-      <p>この画面が表示されれば、ルーティングやフォルダ構成は正常です！</p>
-      <p>原因は MovieRow などのAPIフェッチ側のコードにあります。</p>
-    </div>
-  ); 
+    <>
+      <h1>This is Home Page</h1>
+    </>
+  );
 }
-// import { redirect } from 'next/navigation'
-
-// export default function Page() {
-
-
-//   return (
-//     <>
-//       <h1>This is Home Page</h1>
-//     </>
-//   );
-// }

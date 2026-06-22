@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Page(){
+export default function HomePage(){
   return (
     <div style={{ padding: "50px", textAlign: "center" }}>
       <h1>Home Page (Test)</h1>

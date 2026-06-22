@@ -33,7 +33,7 @@ export default function HomePage(){
   return (
     <div className="pb-8">
       <Header />
-      <HeroSlider />
+      {/* <HeroSlider /> */}
       {/* <Preview />
       <MovieRow heading="Popular on Netflix" category="popular" />
       <MovieRow heading="Top Rated" category="top_rated" />

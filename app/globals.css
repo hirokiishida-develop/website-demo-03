@@ -4,7 +4,10 @@
   --background: #000000;
   --foreground: #ffffff;
 
+  --text-form: #C4C4C4;
+  --bg-gray: #424242;
   --accent-red: #DB202C;
+
 
   --inactive: #8C8787;
 }
@@ -21,7 +24,10 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
-.text-inactive { color: var(--inactive)}
+
+.text-form { color: var(--accent-red) }
+.text-inactive { color: var(--inactive) }
+.background-gray { background: var(--bg-gray) }
 
 .hidden-scrollbar {
   -ms-overflow-style: none;

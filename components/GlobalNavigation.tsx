@@ -23,14 +23,14 @@ const NavigationButton = ({ img, label, page }: GlobalNavigationButtonProps) => 
         width={24}
         height={24}
       />
-      <span className="text-inactive text-[8px] font-medium leading-7">{label}</span>
+      <span className="text-inactive text-[8px] font-medium leading-2">{label}</span>
     </MotionButton>
   );
 }
 
 export default function GlobalNavigation(){
   return (
-    <nav className="flex justify-between fixed bottom-0 left-0 right-0 px-7 bg-black z-50">
+    <nav className="flex items-center justify-between fixed bottom-0 left-0 right-0 h-12.5 px-7 bg-black z-50">
       <NavigationButton img="home" label="Home" page="home" />
       <NavigationButton img="search" label="Search" page="search" />
       <NavigationButton img="coming" label="Coming Soon" page="notifications" />

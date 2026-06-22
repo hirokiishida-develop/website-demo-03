@@ -8,7 +8,7 @@ export default function HomePage(){
       <p>この画面が表示されれば、ルーティングやフォルダ構成は正常です！</p>
       <p>原因は MovieRow などのAPIフェッチ側のコードにあります。</p>
     </div>
-  );
+  ); 
 }
 // import { redirect } from 'next/navigation'
 

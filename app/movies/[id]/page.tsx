@@ -6,7 +6,7 @@ type MovieDetailPageProps = {
   }>;
 };
 
-export default async function MovieDetailPage(
+export default async function Page(
   { params }: MovieDetailPageProps
 ) {
   const { id } = await params;
